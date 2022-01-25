@@ -1,0 +1,198 @@
+/*--------------------------------------------------------------------------*/
+/*--------------------------- DEFINIÇÕES GERAIS ----------------------------*/
+/*--------------------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    max-width: 100%;
+  }
+
+  .container {
+    max-width: 608px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+/*--------------------------------------------------------------------------*/
+/*---------------------------- DEFINIÇÕES BODY -----------------------------*/
+/*--------------------------------------------------------------------------*/
+
+body {
+    font-family: 'Ropa Sans', sans-serif;
+    margin: 0px;
+  }
+  
+/*--------------------------------------------------------------------------*/
+/*--------------------------- DEFINIÇÕES HEADER ----------------------------*/
+/*--------------------------------------------------------------------------*/
+
+header {
+     display: flex;
+     align-items: center;
+     height: 49px;
+     background: #FFFFFF;
+     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+header img{
+       width: 20px;
+  }
+
+header div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lovt {
+      font-size:25px;
+      color :#777777;
+      text-transform: uppercase;
+  }
+.youlove-yourloft{
+      display: flex;      
+      flex-direction: column;
+      align-items: stretch;
+      font-size: 8px;    
+      color: #AAAAAA;
+      padding: 3px;
+}
+
+/*--------------------------------------------------------------------------*/
+/*---------------------------- DEFINIÇÕES MAIN -----------------------------*/
+/*--------------------------------------------------------------------------*/
+
+.primeira-imagem {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 37px 0px;
+}
+
+main section {
+  display: flex;
+  justify-content: center; 
+}
+/*---------------------------- PRIMEIRA SECTION -----------------------------*/
+
+.primeiro-destaque {
+  margin: 0px 96px 0px 0px;
+}
+
+.preco {
+  font-size: 130%;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: space-between;
+  color:#888888;
+  padding: 10px 10px 0px 10px;
+  
+}
+.texto-destaque {
+  background-color: #EEEEEE;
+  font-size: 11px;
+  color: #555555;
+  padding: 10px;
+  text-align: justify;
+}
+
+.texto-new {
+  background-color: #51D275;
+  border-radius: 10px;
+  padding:0px 10px;
+  color:#FFFFFF;
+}
+
+.texto-sale {
+  background-color: #DC9730;
+  border-radius: 10px;
+  padding:0px 10px;
+  color:#FFFFFF;
+}
+
+
+/*---------------------------- SEGUNDA SECTION -----------------------------*/
+
+.your-style{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; 
+}
+
+.your-style p {
+  align-self: center;
+  color: #888888;
+  font-size: 25px;
+}
+
+#texto-principal {
+  padding: 30px 0px 20px 0px;
+}
+
+.retangulos-your-style {
+  position: relative;
+  margin-bottom: 13px;
+}
+
+.textoEstilos{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;  
+}
+
+#texto-imagens {
+  font-size: x-large 25px;
+  z-index: 10;
+  background-size: center;
+  color:#ffffff;
+  box-align: center;
+  align-items: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.transparencia {
+  display: flex;
+  z-index: 8;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+/*--------------------------------------------------------------------------*/
+/*--------------------------- DEFINIÇÕES FOOTER ----------------------------*/
+/*--------------------------------------------------------------------------*/
+
+footer{
+  padding: 40px 0px;
+  margin-top: 43px;
+  background-color: #333333;
+}
+
+footer img+img {
+  margin-left: 15px;
+
+}
+
+.alinhamento-footer{
+  display: flex;
+  flex-wrap: wrap;
+  color: #FFFFFF;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.texto-footer p{
+ padding: 8px 0px 8px 0px;
+}
+
+.texto-footer p:last-child {
+  margin-top: 5px;
+  text-transform: uppercase;
+}
